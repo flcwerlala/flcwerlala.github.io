@@ -1,0 +1,102 @@
+div.container > div{
+    background-color: salmon;
+    margin: 10px;
+    font-size: 30px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    height: 100px;
+}
+
+.container{
+    background-color: khaki;
+    display: flex;
+}
+/* PROPERTY FLEXBOX :
+   1. Flex Direction
+   2. Flex-wrap
+   3. Flex-flow
+   4. Justify-content
+   5. Align-items
+   6. Align-Content
+   7.dll
+*/
+
+/* Flex-Direction */
+/*
+   1. row
+   2. row-reverse
+   3. column
+   4. column-reverse
+*/
+sifat dari flexibel blok wajib dinisialisasi{wajib pakai flex}
+
+.container{
+    flex-direction: row;
+}
+
+/* Flex-Wrap*/
+/* wrap (pembungkus)
+   1. wrap
+   2. no-wrap
+   3. wrap-reverse
+*/
+
+.container{
+    flex-wrap: wrap;
+}
+
+/*Flex-Flow*/
+/* Gabungan antara flex direction & flex wrap (shorthand)*/
+/* 
+  selector{
+     flex-flow : flex-direction {flex_wrap}
+  }
+*/
+.container{
+    flex-flow: row wrap;
+}
+
+/* Justify-Content*/
+/* 
+    1. Center
+    2. Space-around
+    3. Space-between
+    4. Space-evenly
+    5. Start
+    6. End
+    7. Flex-start
+    8. Flex-end
+    9. Left
+    10. Right
+*/
+
+.container{
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+}
+
+/* Align-items */
+/*
+    Baseline
+    Stretch
+    Flex-start
+    Flex-end
+    Center
+*/
+
+.container{
+    /*height: 200px;
+    align-items: baseline;*/
+}
+/* Align-Content */
+/* 
+*/
+.container{
+    height: 400px;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row-reverse
+}
